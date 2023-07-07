@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/js.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>L<span>OG</span>O</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Plans</a></li>
+                <li><a href="#">hello@tales.com</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor">
+            <section class="contenedor__sesion">
+                <div class="contenedor__tarjeta">
+                    <h1>Tus tareas jamás fueron <span>fáciles</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit vitae deserunt voluptate rerum! Tenetur possimus nam modi, pariatur expedita, quisquam voluptas illum error minus id quos deserunt debitis </p>
+                    <div class="contenedor__boton">
+                        <a class="contenedor__btn" href="#" onclick="activar()">Cantáctanos</a>
+                        <a class="contenedor__btn contenedor__btn--white">Conoce más</a>
+                    </div>
+                    
+                </div>
+
+                <div class="img">
+                    <img width="700px" src="img/hero.webp" alt="">
+                </div>
+            </section>
+            
+        </div>
+        <div class="contenedor form__email">
+            <section class="contenedor__sesion" >
+                <div class="contenedor__form">
+                    <form id="form" action="#" onsubmit="return false">
+                        <label>Send Mail To Us</label>
+                        <input type="text" name="asunto" placeholder="Asunto:">
+                        <textarea id ="textarea" name="textarea" rows="10" cols="50" placeholder="Descripción:"></textarea>
+                        <button class="contenedor__form__btn">Enviar</button>
+                    </form>
+                </div>
+                
+                <div class="img">
+                    <img width="600px" src="img/work.webp" alt="">
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

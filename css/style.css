@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'sans-serif', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: black;
+}
+
+header{
+    margin: 0 80px 0 80px;
+    padding-top: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span{
+    color: #5f9ea0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li{
+    padding-left: 50px;
+}
+
+li a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* body{
+    margin: 0 80px 0 80px;
+} */
+
+.contenedor{
+    margin: 100px 80px 0 80px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.contenedor__boton{
+    margin-top: 25px;
+}
+.contenedor__btn{
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #5f9ea0;
+    text-decoration: none;
+}
+.contenedor__btn--white{
+    background-color: white;
+}
+.contenedor__sesion{
+    display: flex;
+    align-items: center;
+}
+
+/*Formulario*/
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+label{
+    color: #5f9ea0;
+    font-size: 25px;
+}
+
+input[type="text"]{
+    width: 450px;
+    padding: 5px;
+    background-color: rgb(217, 217, 221);
+    border: none;
+    margin-bottom: 5px;
+}
+
+#textarea{
+    width: 450px;
+    padding: 5px;
+    background-color: rgb(217, 217, 221);
+    border: none;
+    
+}
+
+input[type="submit"]{
+    width: 450px;
+    
+}
+
+/* #form input, #form textarea{
+  background-color: #f8f8f8;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 8px;
+} */
+.contenedor__form__btn{
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #5f9ea0;
+    text-decoration: none;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+::placeholder{
+    font-size: 1.2em;
+}
+
+.form__email{
+    position: absolute;
+    top: 55px;
+    display: none;
+    background-color: white;
+    width: 90%;
+    height: 70%;
+}
